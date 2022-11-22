@@ -1,0 +1,28 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "A Minimal Version of Chatting web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iakashrai/ChatApp.git"
+  },
+  "author": "Akash Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iakashrai/ChatApp/issues"
+  },
+  "homepage": "https://github.com/iakashrai/ChatApp#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
